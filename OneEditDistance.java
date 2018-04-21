@@ -43,5 +43,6 @@ class OneEditDistance {
         System.out.println(isOneEdit("dcat","cat"));
         System.out.println(isOneEdit("cat","cati"));
         System.out.println(isOneEdit("cat","catss"));
+        
     }
 }
