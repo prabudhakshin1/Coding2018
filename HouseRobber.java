@@ -18,6 +18,7 @@ class HouseRobber {
     */
 
     public int rob(int[] nums) {
+        // if current is 'i', then prevMax holds maximum value ontainable from 0 to i-2.
         int prevMax = 0;
         int prev = 0;
         
