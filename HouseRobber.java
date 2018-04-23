@@ -15,7 +15,6 @@ class HouseRobber {
     * Need to find the subsequence subject to the constraint that no two adjacent houses
     * are selected. 
     * dp[i] = Max value obtainable by stealing in house 'i' and some houses on or before i-2.
-    * 
     */
 
     public int rob(int[] nums) {
